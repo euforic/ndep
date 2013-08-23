@@ -2,6 +2,11 @@
 # ndep
 Node as an module dependency. Useful in sandboxed environments.
 
+## install
+```
+$ npm install ndep
+```
+
 ## Ndep([opts])
 Create new instance of `Ndep`
 
