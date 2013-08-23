@@ -1,0 +1,32 @@
+{
+  "name": "ndep",
+  "version": "0.0.1",
+  "description": "Node as a npm dependency",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "debug": "~0.7.2",
+    "rmrf": "~1.0.2",
+    "superagent": "~0.15.4",
+    "tar": "~0.1.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/euforic/ndep.git"
+  },
+  "keywords": [
+    "node",
+    "versioning"
+  ],
+  "author": "Christian Sullivan <cs@bodhi5.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euforic/ndep/issues"
+  }
+}
